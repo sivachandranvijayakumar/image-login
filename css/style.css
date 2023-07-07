@@ -1,0 +1,83 @@
+.container
+{
+	border:1px solid lightgray;
+	height:375px;
+	width:520px;
+}
+.row
+{
+	display:flex;
+	margin:0px 147px 0px 0px;
+}
+img
+{
+	height:60vh;
+    width:17vw;
+    object-fit:cover;
+    object-position:0%;
+}
+h1
+{
+	color:lightgray;
+	font-family: 'Roboto', sans-serif;
+	font-size:xx-large;
+}
+span
+{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+}
+.left
+{
+	padding:2px 36px;
+	position: absolute;
+    left: 220px;
+}
+
+.left p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+    line-height: 33px;
+}
+.top
+{
+	padding: 1px 0px 0px 11px;
+}
+
+input
+{
+    border: none;
+	outline:none;
+    border-bottom: 1px solid lightgrey;
+    padding:12px 15px;
+}
+
+.login 
+{
+	text-decoration:none;
+	background-color: #bd97ea;
+    border-radius: 33px;
+    padding: 9px 35px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    left: 110px;
+    top: 5px;
+}
+.basic 
+{
+	color:black;
+	position: absolute;
+    left: 167px;
+	bottom:-44px;
+}
+.fa-cog
+{
+	color: white;
+    position: absolute;
+    left: 26px;
+    top: 24px;
+    font-size: 33px;
+}
